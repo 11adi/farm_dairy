@@ -12,14 +12,14 @@ export class Farm_Dairy extends Component {
          year:'',//Year of The Current Crop
          code:'',// code no.
          funit:'', //farm unit
-        address:'',//address of the unit
-        syear:'',//Year on which organic production was started by the Farmer
-        DOJ:'',//Date of Joining ICS
-        totaland:'',//Totsl Land in acre
-        Technique:'',//Present production Technique
-        Carea:'',//Crops under organic production and their area
-        ststus:'',//Certification Status
-        accredited:''//name of the certified accredited body
+         address:'',//address of the unit
+         syear:'',//Year on which organic production was started by the Farmer
+         DOJ:'',//Date of Joining ICS
+         totaland:'',//Totsl Land in acre
+         Technique:'',//Present production Technique
+         Carea:'',//Crops under organic production and their area
+         ststus:'',//Certification Status
+         accredited:''//name of the certified accredited body
       }
     }
 
@@ -102,10 +102,13 @@ export class Farm_Dairy extends Component {
 
   render() {
     return (
-     <form on onSubmit={this.handleSubmit}>
-        <div>
+     <form on Submit={this.handleSubmit}>
+        <div className="mx-32 my-10 font-serif width-75px height-100px">
+        <div className="m-5 border shadow-xl rounded-lg bg-[#ffffff] filter-drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));">
+        <div className="text-center text-[30px] bg-[#2196F3] text-decoration-line: underline py-2">
             <h1>Farm Dairy</h1>
         </div>
+        <div className="m-5 border shadow-xl rounded-lg bg-[#ffffff] filter-drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));">
         <div>
             <label>Year of The Current Crop</label>
             <input type='date' value={this.state.Year} onChange={this.handleYearChange}/>
@@ -125,8 +128,7 @@ export class Farm_Dairy extends Component {
             <textarea value= {this.state.reason} onChange={this.handleReasonChange}/>
         </div>
         <div>
-            <label>Name of the Farmer</label>
-            <input type='text' value={this.state.username} onChange={this.handleUsernameChange}/>
+            <input type='text' placeholder="Name of the Farmer" value={this.state.username} onChange={this.handleUsernameChange}/>
         </div>
 
         <div>
@@ -182,6 +184,24 @@ export class Farm_Dairy extends Component {
         </div>
 
         <button type="submit">Submit</button>
+        </div>
+        <div>
+                <p> </p>
+                <p> </p>
+                <p> </p>
+                <p> </p>
+                <p> </p>
+                <p> </p>
+                <p>.</p>
+                <p> </p>
+                <p> </p>
+                <p> </p>
+                <p> </p>
+                <p> </p>
+                <p>.</p>
+            </div>
+        </div>
+        </div>
      </form>
     )
   }
