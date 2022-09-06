@@ -1,0 +1,104 @@
+.container {
+    position: relative;
+    left: 180px;
+  }
+  
+  /* Bottom right text*/ 
+  .text-block-1 {
+    position: relative;
+    bottom: 700px;
+    left: 60px;
+    width: 40px;
+    opacity: 80%;
+    
+
+    color: black;
+  }
+  .text-block-2 {
+    position: relative;
+    bottom: 650px;
+    left: 60px;
+    width: 40px;
+    opacity: 80%;
+
+    color: black;
+  }
+  .text-block-3 {
+    position: relative;
+    bottom: 600px;
+    left: 60px;
+    width: 40px;
+    opacity: 80%;
+
+    color: black;
+  }
+  .text-block-4 {
+    position: relative;
+    bottom: 550px;
+    left: 60px;
+    width: 40px;
+    opacity: 80%;
+
+    color: black;
+  }
+  .text-block-5 {
+    position: relative;
+    bottom: 500px;
+    left: 60px;
+    width: 40px;
+    opacity: 80%;
+
+    color: black;
+  }
+  .text-block-6 {
+    position: relative;
+    bottom: 450px;
+    left: 60px;
+    width: 40px;
+    opacity: 80%;
+
+    color: black;
+  }
+  .text-block-7 {
+    position: relative;
+    bottom: 400px;
+    left: 60px;
+    width: 40px;
+    opacity: 80%;
+
+    color: black;
+  }
+  .text-block-8 {
+    position: relative;
+    bottom: 350px;
+    left: 60px;
+    width: 40px;
+    opacity: 80%;
+
+    color: black;
+  }
+  .text-block-9 {
+    position: relative;
+    bottom: 300px;
+    left: 60px;
+    width: 40px;
+    opacity: 80%;
+
+    color: black;
+  }
+  .text-block-10 {
+    position: relative;
+    bottom: 250px;
+    left: 60px;
+    width: 40px;
+    opacity: 80%;
+
+    color: black;
+  }
+  .submit-12 {
+    position: relative;
+    bottom: 100px;
+    left: 60px;
+    width: 320px;
+  }
+  
